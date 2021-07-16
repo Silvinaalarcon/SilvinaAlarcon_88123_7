@@ -32,9 +32,13 @@ void draw() {
     //interaccion mouse y color de los arcos
     mx= map(mouseX, 0, width, 0, 255);
     my= map(mouseY, 0, height, 0, 255);
+    pushStyle();
+    fill(255);
+    textAlign(CENTER);
+    text("PERDÓN POR TAN POCO", mouseX, mouseY);
+    popStyle();
 
-
-    fill(mx,0,my);
+    fill(mx, 0, my);
     noStroke();
 
 
