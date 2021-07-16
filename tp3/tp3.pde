@@ -5,7 +5,7 @@
  -Comisión 3_ David Bedoian
  Pido disculpas por no llegar con una entrega completa
  Se me está complicando con la parte interactiva.
- Quería que cada arco gire sobre su eje y/o cambien de color 
+ Quería que cada arco gire sobre su eje y que cambien de color 
  generando la ilusion de un cuadrado que aparece y desaparece.
  Para el recuperatorio espero resolverlo y llegar a hacer el video.
  
@@ -29,6 +29,7 @@ void draw() {
 
   background(230);
   for ( int i=0; i<4; i++) {
+    //interaccion mouse y color de los arcos
     mx= map(mouseX, 0, width, 0, 255);
     my= map(mouseY, 0, height, 0, 255);
 
